@@ -1,0 +1,6 @@
+import { AgoraService } from './agora.service';
+export declare class AgoraController {
+    private readonly agoraService;
+    constructor(agoraService: AgoraService);
+    getToken(channelName: string, uid: number, role: string): string;
+}
